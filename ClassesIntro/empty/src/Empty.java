@@ -1,0 +1,3 @@
+// Empty.java
+class Empty {
+}
