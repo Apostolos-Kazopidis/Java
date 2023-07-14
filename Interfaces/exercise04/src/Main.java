@@ -26,8 +26,8 @@ class Main {
         array[4].print();
 
         System.out.println("===================");
-        System.out.println(array[0]==array[1]); //sygkrish anaforwn
-        System.out.println(array[0].equals(array[1])); //sygkrish antikeimenwn oson afora tiss times tous
+        System.out.println(array[0]==array[1]);
+        System.out.println(array[0].equals(array[1]));
 
         Object o;
         o = array[1];
