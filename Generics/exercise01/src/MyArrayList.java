@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MyArrayList<T extends Number>{ //amyntikos programmarismos (MONO GIA ARITHMOUS TPT ALLO) ARITHMOSU OPWS INTEGER,FLOAT,DOUBLE,BYTE ETC
+public class MyArrayList<T extends Number>{
 
     ArrayList<T> array;
 
