@@ -1,14 +1,12 @@
 class Storey {
-    //o orofos exei diamerismata
-    private Flat[] flats; //kataskeuh anaforas
+    private Flat[] flats; 
 
     Storey(int cFlats) {
-        flats = new Flat[cFlats]; //ftiajimo pinaka apo anafores
+        flats = new Flat[cFlats];
         for(int i=0; i<flats.length; i++)
-            flats[i]= new Flat(); //desmeusi xwrou gia kathena apo ta antikeimena
+            flats[i]= new Flat();
     }
 
-    //theloume na prosthesoume anrthropous se ena diamerisma
     public void addPeople(int flat, int people) {
         flats[flat].addPeople(people);
     }
