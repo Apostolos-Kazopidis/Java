@@ -1,10 +1,10 @@
 abstract class MyAbstract {
-    int ix; //variable-metavliti
-    final double PI = 3.14159; //constant-stathera
-    static int sx; //static variable-statikh metavliti
-    final static int fx = 0; //static constant-statikh stathera
+    int ix; 
+    final double PI = 3.14159; 
+    static int sx; 
+    final static int fx = 0; 
 
-    //method-methodos
+    //method
     void f() {
 
     }
