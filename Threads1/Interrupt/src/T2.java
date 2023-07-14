@@ -3,9 +3,9 @@ public class T2 implements Runnable {
     public void run() {
         Thread t = Thread.currentThread();
         for (long i = 0; i < 1000000000L; i++) {
-            if (i%100000L==0 && t.isInterrupted()) { //ana 100000 bimata ginetai enas elegxos an mou exei erthei to interrupt
-                System.out.println(t + " interrupted(i=" + i + ")"); // to piasame to interrupt (se 0.5s htan sto 565 ekatomiria)
-                return; //epistrofh dhladh diakoph ekteleshs run
+            if (i%100000L==0 && t.isInterrupted()) { 
+                System.out.println(t + " interrupted(i=" + i + ")"); 
+                return; 
             }
         }
         System.out.println(t + ": exiting");
