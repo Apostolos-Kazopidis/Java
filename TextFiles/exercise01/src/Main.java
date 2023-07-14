@@ -7,7 +7,7 @@ public class Main {
 
         int lines=0;
         try (BufferedReader br = new BufferedReader(new FileReader(f))) {
-            while(br.readLine()!=null) //oso auto pou diavazei einai diaforetiko tou null
+            while(br.readLine()!=null) 
                 lines++;
         } catch (IOException e) {
             System.err.println(e);
