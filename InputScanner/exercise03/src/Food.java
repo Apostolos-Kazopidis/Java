@@ -60,12 +60,11 @@ abstract class Food implements StandardMethods, DoubleAdjustments {
                 break;
             } else {
                 System.out.println("ERROR....use a a double please.....");
-                sc.next(); //to diabazoume jexwrista kai petame sta skoupidia thn lathos eisagogi px an ebaze (string)
+                sc.next(); 
             }
         }
 
-        sc.nextLine(); //gnorizw oti exei meinei mesa ena /n opote to double OPOTE MONADIKH LYSH GIA NA TO YPERBW
-                       //oles oi next kratane mesa skoupidia ektos apo thn nextLine
+        sc.nextLine(); 
     }
 
 }
