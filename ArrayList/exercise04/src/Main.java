@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    Person[] array = {
-						new Person("John", "Snow"),
+			new Person("John", "Snow"),
                         new Person("Tywin", "Lannister"),
                         new Person("Cersei", "Lannister")
 						};
