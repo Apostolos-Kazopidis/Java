@@ -3,7 +3,7 @@ public class Main {
         Playlist playlist = new Playlist("Movies");
         playlist.addVideo("Legends of today");
         playlist.addVideo("Mitsos gun");
-        playlist.addVideo("Cocksinmymouth");
+        playlist.addVideo("King Of Games");
         playlist.addVideo("Retarder braaather from an other mother");
         playlist.addVideo("Xazolarides");
         playlist.print();
